@@ -1,0 +1,258 @@
+/* Bootstrap resets */
+.navbar {
+    padding: 0rem 1rem;  /* padding: 0.5rem 1rem;  */
+}
+
+body {
+    background: #080d11;
+}
+/* bg */
+.landing-page {
+    width: 100%;
+    background: #2c3e50;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.landing-page-text-box {
+    display: inline-block;
+    position: relative;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    padding: .5rem 1rem;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+
+}
+
+/* Typewriter style */
+.Typewriter__wrapper {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+/* navbar */
+
+.main-nav {
+    background: #1c2835;
+    border-top: #14202b 1.2px solid;
+    border-bottom: #14202b 1.2px solid;
+}
+
+.main-nav .navbar-brand {
+    color: #fff;
+    font-family: 'Open Sans', inherit;
+    font-weight: 300;
+
+}
+
+
+.nav-links {
+    margin: 0;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.main-nav .nav-links li {
+    text-decoration: none;
+    display: inline-block;
+    padding: .5rem 1.5rem;
+    color: #fff;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+/* .main-nav .nav-links li:not(:last-child) {
+    margin-right: 30px;
+} */
+
+.main-nav .nav-links li:hover {
+    background: #080d11;
+}
+
+
+/* About me */
+
+.about-box {
+    background: #14202b;
+}
+
+.img-port-box {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-box .img-port-box {
+
+}
+
+
+.about-box .img-port-box img {
+    width: 90%;
+    height: ;
+}
+
+.about-me-box {
+    padding: 1rem;
+}
+
+.about-box .about-me-box .about-me-box-heading {
+    color: #fff;
+    padding: 0 1.5rem 1rem 0;
+    margin-bottom: 1rem;
+    border-bottom: 1.3px solid #0b141d;
+    display: inline-block;
+}
+
+.para {
+    color: rgb(209, 209, 209);
+    font-family: inherit;
+    font-size: .9rem;
+    font-weight: 300;
+    line-height: 1.2rem;
+}
+
+.high-des {
+    background: #1c28358f;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: .5rem;
+}
+
+.high-des .high-des-heading {
+    color: rgb(156, 156, 156);
+}
+
+.social-box {
+    background: #1c28358f;
+    display: flex;
+    padding: 1rem;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin: .5rem;
+    fill: #fff;
+    transition: all .3s ease;
+}
+
+.social-icons:hover .icon {
+    fill: #080d11;
+}
+
+
+/* ////////////////////////////////////////// */
+/* Scrollbar edit */
+::-webkit-scrollbar {
+    width: 10px;
+    background: #0b141d;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#3971a8;
+    border-radius: 2px;
+}
+/* Scrollbar edit End */
+
+/* Contact us */
+.contactus {
+    padding: 2rem;
+}
+
+.contactus .icon-c-box {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactus .icon-c {
+    fill: #2c3e50;
+    width: 6rem;
+    height: 6rem;
+}
+
+.contactus form input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(184, 184, 184, 0.555);
+    color: #3971a8;
+    transition: all .2s ease;
+}
+
+.contactus form input:focus,
+.contactus form textarea:focus {
+    color: #3971a8;
+    font-family: inherit;
+    outline: none;
+    background: #2a394649;
+}
+
+.contactus form input::-webkit-input-placeholder,
+.contactus form textarea::-webkit-input-placeholder {
+    font-family: inherit;
+    color: #2c3e50;
+}
+
+
+.contactus form textarea::-webkit-input-placeholder {
+    font-family: inherit;
+    color: #2c3e50;
+}
+
+.contactus input[type="submit"] {
+    background: #2c3e50;
+    border: none;
+    color: #fff;
+    font-family: inherit;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.contactus input[type="submit"]:hover {
+    -webkit-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.32);
+    transform: translateY(-3px);
+}
+
+.contactus input[type="submit"]:active {
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.32);
+    transform: translateY(-1px);
+    outline: 0;
+    border: 0;
+}
+
+.contactus input[type="submit"]:focus,
+.contactus input[type="submit"]:visited {
+    outline: 0;
+    border: 0;
+}
+
+
+/*End of Contact us */
+
+/* Footer */
+.footer {
+    background: #0b141d;
+    box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.158);
+}
+/*End Of Footer */
